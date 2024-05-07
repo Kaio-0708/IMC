@@ -20,3 +20,6 @@ Author
 Kaio Vitor - https://github.com/Kaio-0708
 <br>
 Gabriel Silva - https://github.com/GabrielDOSilva
+
+
+SITE: https://shapeupimc.netlify.app/
