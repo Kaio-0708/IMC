@@ -1,4 +1,4 @@
-BMI Project
+BMI Project <br>
 This is a simple BMI (Body Mass Index) calculator project, developed with DEV Gabriel Silva using HTML, CSS and JavaScript.
 
 Description
@@ -16,5 +16,7 @@ Display of the BMI result and its corresponding classification.
 Option to calculate again or end the process.
 
 Author
+<br>
 Kaio Vitor - https://github.com/Kaio-0708
+<br>
 Gabriel Silva - https://github.com/GabrielDOSilva
