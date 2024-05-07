@@ -88,6 +88,15 @@ h3{
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+  
+  .container{
+    widht: 90%
+  }
+  
   .rodape {
     left: 0; 
     width: 100%; 
