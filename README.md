@@ -1,4 +1,4 @@
-BMI Project <br>
+BMI Project = SHAPEUP<br>
 This is a simple BMI (Body Mass Index) calculator project, developed with DEV Gabriel Silva using HTML, CSS and JavaScript.
 
 Description
