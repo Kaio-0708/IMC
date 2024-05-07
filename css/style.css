@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  background: #007489;
+  text-align: center;
+}
+
+h1, p, label{
+  color: black;
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  background-color: #40B7D4;
+  padding: 1em;
+  border-radius: 30px;
+  margin-top: 6%;
+}
+
+button {
+  background-color: #FEDD59;
+  color: black;
+  border: none;
+  padding: 0.7em;
+  margin: 5px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 6px #000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #40B7D4;
+}
+
+.final-step,
+.second-step {
+  display: none;
+}
+
+input {
+  display: flex;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.5em;
+  margin-left: -6px;
+  background-color: #FEDD59;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.3em;
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#resultado {
+  font-size: 25px;
+}
+
+.rodape{
+  font-size: 15px;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .rodape {
+    left: 0; 
+    width: 100%; 
+  }
+}
