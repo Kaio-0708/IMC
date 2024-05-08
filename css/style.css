@@ -7,9 +7,16 @@ body {
   text-align: center;
 }
 
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 80%;
+  }
+}
+
 h1, p, label{
-  color: black;
-  font-weight: bold;
+    color: black;
+    font-weight: bold;
 }
 
 p{
@@ -21,11 +28,11 @@ p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 20%;
+  width: auto;
   background-color: #40B7D4;
   padding: 1em;
   border-radius: 30px;
-  margin-top: 7%;
+
 }
 
 button {
@@ -33,7 +40,7 @@ button {
   color: black;
   border: none;
   padding: 0.7em;
-  margin: 5px;
+  margin: auto;
   border-radius: 30px;
   box-shadow: 1px 1px 6px #000;
   cursor: pointer;
