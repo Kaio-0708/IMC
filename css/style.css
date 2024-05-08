@@ -7,6 +7,11 @@ body {
   text-align: center;
 }
 
+imagem-topo{
+  height: 400px;
+  width: 550px;
+}
+
 h1, p, label{
     color: black;
     font-weight: bold;
@@ -90,13 +95,16 @@ h3{
 @media only screen and (max-width: 480px) {
   img {
     width: 80%;
-    margin: 5%;
   }
 
+  imagem-topo{
+    width: auto;
+  }
+  
   container{
     width: auto;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
   }
   
   button{
