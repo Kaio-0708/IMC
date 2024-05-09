@@ -135,7 +135,7 @@ h3{
   .container{
     width: auto;
     margin-top: 4%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
   }
   
   button{
@@ -143,11 +143,11 @@ h3{
   }
   
   .imagem-fundo{
-    margin-top: 5%;
+    margin-top: 15%;
   }
 
   .rodape{
-    margin-top: 5%;
+    margin-top: 10%;
   }
 }
 
@@ -158,8 +158,8 @@ h3{
   }
   
   .container{
-    width: auto;
-    margin-top: 8%;
+    width: 40%;
+    margin-top: 10%;
     margin-bottom: 10%;
   }
   
@@ -168,7 +168,7 @@ h3{
   }
   
   .imagem-fundo{
-    margin-top: 20%;
+    margin-top: 30%;
   }
 
   .rodape{
