@@ -146,3 +146,43 @@ h3{
     width: 100%; 
   }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+  .container{
+    width: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+  
+  button{
+    margin: auto;
+  }
+  
+  .imagem-fundo{
+    margin-top: 2%;
+  }
+
+  .rodape{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+  .container{
+    width: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  
+  button{
+    margin: auto;
+  }
+  
+  .imagem-fundo{
+    margin-top: 10%;
+  }
+
+  .rodape{
+    margin-top: 10%;
+  }
+}
