@@ -158,8 +158,8 @@ h3{
   }
   
   .container{
-    width: 40%;
-    margin-top: 10%;
+    width: auto;
+    margin-top: 13%;
     margin-bottom: 10%;
   }
   
@@ -168,7 +168,7 @@ h3{
   }
   
   .imagem-fundo{
-    margin-top: 30%;
+    margin-top: 15%;
   }
 
   .rodape{
