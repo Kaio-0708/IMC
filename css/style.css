@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+  --cor--principal:#007489;
+  --cor--secundaria:#FEDD59;
+  --cor--terciaria:#40B7D4;
+  --cor--quartenaria: black;
+}
+
 body {
   font-family: "Exo", sans-serif;
   font-weight: 400;
-  background: #007489;
+  background: var(--cor--principal);
   text-align: center;
 }
 
 .imagem-topo{
   height: 400px;
-  width: 550px;
+  width: 600px;
 }
 
 h1, p, label{
-    color: black;
+    color: var(--cor--quartenaria);
     font-weight: bold;
 }
 
@@ -27,16 +34,15 @@ p{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 20%;
-  background-color: #40B7D4;
+  background-color: var(--cor--terciaria);
   padding: 1em;
   border-radius: 30px;
   margin-top: 7%;
-  margin-bottom: 7%;
 }
 
 button {
-  background-color: #FEDD59;
-  color: black;
+  background-color: var(--cor--secundaria);
+  color: var(--cor--quartenaria);
   border: none;
   padding: 0.7em;
   margin: 5px;
@@ -48,7 +54,7 @@ button {
 }
 
 button:hover {
-  background-color: #40B7D4;
+  background-color: var(--cor--terciaria);
 }
 
 .final-step,
@@ -64,7 +70,7 @@ input {
   width: 100%;
   padding: 0.5em;
   margin-left: -6px;
-  background-color: #FEDD59;
+  background-color: var(--cor--secundaria);
 }
 
 .form {
@@ -76,7 +82,7 @@ input {
 }
 
 h3{
-  color: black;
+  color: var(--cor--quartenaria);
   font-size: 25px;
   font-weight: bold;
 }
@@ -85,12 +91,16 @@ h3{
   font-size: 25px;
 }
 
+.imagem-fundo{
+  margin-top: 5%;
+}
+
 .rodape{
   font-size: 15px;
   padding: 10px 0;
   position: relative;
   bottom: 0;
-  color: black;
+  color: var(--cor--quartenaria);
 }
 
 @media only screen and (max-width: 480px) {
@@ -110,6 +120,10 @@ h3{
   
   button{
     margin: auto;
+  }
+  
+  .imagem-fundo{
+    margin-top: 0;
   }
 
   .rodape{
