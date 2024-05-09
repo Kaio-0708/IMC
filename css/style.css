@@ -175,3 +175,29 @@ h3{
     margin-top: 10%;
   }
 }
+
+@media only screen and (min-width:1800){
+  .imagem-topo{
+    widht: 800px;
+    height:600px;
+  }
+  
+  .container{
+    width: auto;
+    margin-top: 13%;
+    margin-bottom: 10%;
+  }
+  
+  button{
+    margin: auto;
+  }
+  
+  .imagem-fundo{
+    margin-top: 10%;
+  }
+
+  .rodape{
+    margin-top: 10%;
+  }
+}
+}
