@@ -187,8 +187,10 @@ h3{
     margin-top: 10%;
   }
 
-  .rodape{
-    margin-top: 30%;
+ .rodape{
+    position: fixed;
+    bottom: 0;
+    margin-top: 10%;
   }
 }
 
