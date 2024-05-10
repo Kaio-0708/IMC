@@ -184,12 +184,11 @@ h3{
   }
   
   .imagem-fundo{
-    margin-top: 10%;
+    margin-top: 15%;
   }
 
  .rodape{
-    position: fixed;
-    bottom: 0;
+    margin-top: 30%;
   }
 }
 
