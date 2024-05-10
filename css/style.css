@@ -147,16 +147,11 @@ h3{
   }
 }
 
-@media only screen and (min-width: 1500) and (min-width:1800){
-  .imagem-topo{
-    widht: 800px;
-    height: 600px;
-  }
-  
+@media only screen and (min-width:800) and (max-width:900){
   .container{
-    width: auto;
-    margin-top: 13%;
-    margin-bottom: 10%;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 20%;
   }
   
   button{
@@ -168,7 +163,32 @@ h3{
   }
 
   .rodape{
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (min-width: 1600) and (min-width:1800){
+  .imagem-topo{
+    widht: 800px;
+    height: 600px;
+  }
+  
+  .container{
+    width: auto;
     margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  
+  button{
+    margin: auto;
+  }
+  
+  .imagem-fundo{
+    margin-top: 10%;
+  }
+
+  .rodape{
+    margin-top: 30%;
   }
 }
 
