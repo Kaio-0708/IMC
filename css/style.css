@@ -167,9 +167,9 @@ h3{
   }
 }
 
-@media only screen and (min-width: 1600) and (min-width:1900){
+@media only screen and (min-width: 1600) and (max-width:1950){
   .imagem-topo{
-    widht: 800px;
+    width: 800px;
     height: 600px;
   }
   
