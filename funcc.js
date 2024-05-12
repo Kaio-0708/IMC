@@ -63,7 +63,7 @@ function validate() {
     } else {
 
       result.style.color = "black";
-      result.innerHTML = "Obesidade grave-  Grau III -- IMC = " + imc;
+      result.innerHTML = "Obesidade grave-  Grau III-  IMC = " + imc;
     }
     document.getElementById("peso").value = "";
     document.getElementById("altura").value = "";
