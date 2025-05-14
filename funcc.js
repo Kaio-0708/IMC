@@ -47,19 +47,19 @@ function validate() {
     if (imc < 18.5) {
 
       result.style.color = "gray";
-      result.innerHTML = "Magreza-  Obesidade: Grau 0-  IMC = " + imc;
+      result.innerHTML = "Magreza - IMC = " + imc;
     } else if (imc >= 18.5 && imc <= 25) {
 
       result.style.color = "yellow";
-      result.innerHTML = "Normal-  Obesidade: Grau 0-  IMC = " + imc;
+      result.innerHTML = " Normal - IMC = " + imc;
     } else if (imc >= 25 && imc <= 30) {
 
       result.style.color = "green";
-      result.innerHTML = "Sobrepeso-  Obesidade: Grau I-  IMC = " + imc;
+      result.innerHTML = "Sobrepeso - Obesidade: Grau I - IMC = " + imc;
     } else if (imc >= 30 && imc <= 39) {
 
       result.style.color = "red";
-      result.innerHTML = "Obesidade-  Grau II-  IMC = " + imc;
+      result.innerHTML = "Obesidade - Grau II - IMC = " + imc;
     } else {
 
       result.style.color = "black";
