@@ -47,23 +47,23 @@ function validate() {
     if (imc < 18.5) {
 
       result.style.color = "gray";
-      result.innerHTML = "Magreza <br> IMC = " + imc;
+      result.innerHTML = "Magreza <br><br> IMC = " + imc;
     } else if (imc >= 18.5 && imc <= 25) {
 
       result.style.color = "yellow";
-      result.innerHTML = " Normal <br> IMC = " + imc;
+      result.innerHTML = " Normal <br><br> IMC = " + imc;
     } else if (imc >= 25 && imc <= 30) {
 
       result.style.color = "green";
-      result.innerHTML = "Sobrepeso <br> Obesidade: Grau I <br> IMC = " + imc;
+      result.innerHTML = "Sobrepeso <br> Obesidade: Grau I <br><br> IMC = " + imc;
     } else if (imc >= 30 && imc <= 39) {
 
       result.style.color = "red";
-      result.innerHTML = "Obesidade Grau II <br> IMC = " + imc;
+      result.innerHTML = "Obesidade Grau II <br><br> IMC = " + imc;
     } else {
 
       result.style.color = "black";
-      result.innerHTML = "Obesidade grave Grau III <br>  IMC = " + imc;
+      result.innerHTML = "Obesidade grave Grau III <br><br> IMC = " + imc;
     }
     document.getElementById("peso").value = "";
     document.getElementById("altura").value = "";
