@@ -59,7 +59,7 @@ function validate() {
     } else if (imc >= 30 && imc <= 39) {
 
       result.style.color = "red";
-      result.innerHTML = "Obesidade Grau II <br><br> IMC = " + imc;
+      result.innerHTML = "Obesidade <br>Grau II <br><br> IMC = " + imc;
     } else {
 
       result.style.color = "black";
