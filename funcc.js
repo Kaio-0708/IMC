@@ -55,7 +55,7 @@ function validate() {
     } else if (imc >= 25 && imc <= 30) {
 
       result.style.color = "green";
-      result.innerHTML = "Sobrepeso <br> Obesidade: Grau I <br><br> IMC = " + imc;
+      result.innerHTML = "Sobrepeso <br> Obesidade Grau I <br><br> IMC = " + imc;
     } else if (imc >= 30 && imc <= 39) {
 
       result.style.color = "red";
